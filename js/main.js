@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Happy 8th mensive Princess.').split('');
+        const titles = ('Thankyou').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "This soft pink flower is as pretty as you, but can’t compete with how perfect you are.";
+            subtitle.innerText = "thankyou for being the one person who understood me when no one else did and thankyou for holding me while I cry when everyone else abandoned me. thank you for everything far, iloveusomuch";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
